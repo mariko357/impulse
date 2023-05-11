@@ -244,12 +244,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "zenith"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "zenith.kicad_pro",
+    "filename": "impulse.kicad_pro",
     "version": 1
   },
   "net_settings": {

@@ -19,7 +19,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "zenith"
+      (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039" (page "2"))
       )
     )
@@ -39,7 +39,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "zenith"
+      (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039" (page "3"))
       )
     )
