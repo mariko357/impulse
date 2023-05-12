@@ -342,6 +342,10 @@
     [
       "bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4",
       "Connectors"
+    ],
+    [
+      "3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848",
+      "Sensors"
     ]
   ],
   "text_variables": {}

@@ -8,6 +8,23 @@
   )
 
 
+  (sheet (at 227.33 105.41) (size 30.48 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848)
+    (property "Sheetname" "Sensors" (at 227.33 104.6984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensors.kicad_sch" (at 227.33 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "impulse"
+        (path "/eb4cfece-5fcb-437a-ac58-337ab6512039" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 227.33 143.51) (size 30.48 13.97) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
