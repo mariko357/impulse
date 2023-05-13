@@ -346,6 +346,10 @@
     [
       "3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848",
       "Sensors"
+    ],
+    [
+      "b32decc0-dca7-4695-ab8c-927869a0cdf3",
+      "Connectivity"
     ]
   ],
   "text_variables": {}

@@ -42,6 +42,23 @@
     )
   )
 
+  (sheet (at 227.33 86.36) (size 30.48 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b32decc0-dca7-4695-ab8c-927869a0cdf3)
+    (property "Sheetname" "Connectivity" (at 227.33 85.6484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectivity.kicad_sch" (at 227.33 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "impulse"
+        (path "/eb4cfece-5fcb-437a-ac58-337ab6512039" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 227.33 124.46) (size 30.48 13.97) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
