@@ -732,7 +732,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -741,7 +741,7 @@
   (symbol (lib_id "Device:R_Small") (at 74.93 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fd6fd6b-9df9-436b-a009-4edd54dc1529)
-    (property "Reference" "R24" (at 76.2 27.94 0)
+    (property "Reference" "R19" (at 76.2 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 76.2 30.48 0)
@@ -758,7 +758,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R24") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -767,7 +767,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 26.67 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29e4c469-f866-48d4-b507-638fdd421dc9)
-    (property "Reference" "R6" (at 99.06 26.035 0)
+    (property "Reference" "R16" (at 99.06 26.035 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 99.06 28.575 0)
@@ -784,7 +784,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R6") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -793,7 +793,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 31.75 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42ae00a4-74cc-4dc2-8161-1bc7fa6a40a7)
-    (property "Reference" "R16" (at 99.06 31.115 0)
+    (property "Reference" "R22" (at 99.06 31.115 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2k" (at 99.06 33.655 0)
@@ -810,7 +810,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R16") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -841,7 +841,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R21") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -872,7 +872,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R22") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -881,7 +881,7 @@
   (symbol (lib_id "power:GND") (at 60.96 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45a8b378-fdc1-4f04-8f44-2de9aca1dde9)
-    (property "Reference" "#PWR034" (at 60.96 100.33 0)
+    (property "Reference" "#PWR046" (at 60.96 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 99.06 0)
@@ -897,7 +897,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
   (symbol (lib_id "power:GND") (at 101.6 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b7136a6-79be-47fd-bdb6-c71d18baad3c)
-    (property "Reference" "#PWR039" (at 101.6 40.64 0)
+    (property "Reference" "#PWR038" (at 101.6 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 39.37 0)
@@ -922,7 +922,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -931,7 +931,7 @@
   (symbol (lib_id "power:+3V3") (at 60.96 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 513a4a81-48ce-48a1-aac8-d8a84a863c93)
-    (property "Reference" "#PWR035" (at 60.96 62.23 0)
+    (property "Reference" "#PWR043" (at 60.96 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 60.96 54.61 0)
@@ -947,7 +947,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -956,7 +956,7 @@
   (symbol (lib_id "Device:C_Small") (at 19.05 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51840261-783c-4c9c-80e2-468d31841c2f)
-    (property "Reference" "C11" (at 21.59 34.9313 0)
+    (property "Reference" "C12" (at 21.59 34.9313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 21.59 37.4713 0)
@@ -973,7 +973,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -982,7 +982,7 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 33.02 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d382a96-fbb3-4ff6-bf73-15f9c71deb76)
-    (property "Reference" "R5" (at 30.48 32.385 0)
+    (property "Reference" "R23" (at 30.48 32.385 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0r" (at 30.48 34.925 0)
@@ -999,7 +999,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R5") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1008,7 +1008,7 @@
   (symbol (lib_id "power:+3V3") (at 147.32 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e7f1715-ff28-4f59-a24f-a6917c49a036)
-    (property "Reference" "#PWR042" (at 147.32 27.94 0)
+    (property "Reference" "#PWR034" (at 147.32 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 147.32 20.32 0)
@@ -1024,7 +1024,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1055,7 +1055,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "C14") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1095,7 +1095,7 @@
   (symbol (lib_id "Device:C_Small") (at 67.31 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68fbf2e6-c2d9-4da0-8e3f-4ce17f02dff8)
-    (property "Reference" "C12" (at 69.85 60.3313 0)
+    (property "Reference" "C13" (at 69.85 60.3313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 69.85 62.8713 0)
@@ -1112,7 +1112,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "C12") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1121,7 +1121,7 @@
   (symbol (lib_id "Device:R_Small") (at 68.58 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f24324e-ba0e-404a-a22e-7c467e781a0f)
-    (property "Reference" "R23" (at 69.85 27.94 0)
+    (property "Reference" "R18" (at 69.85 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 69.85 30.48 0)
@@ -1138,7 +1138,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R23") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
   (symbol (lib_id "power:GND") (at 43.18 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 716ef131-07ce-4a5e-95ed-01a87e99fc4e)
-    (property "Reference" "#PWR028" (at 43.18 41.91 0)
+    (property "Reference" "#PWR040" (at 43.18 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 40.64 0)
@@ -1163,7 +1163,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1172,7 +1172,7 @@
   (symbol (lib_id "BMI270:BMI270") (at 45.72 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7593e5f9-69bb-4b0f-8f86-bed0f134450d)
-    (property "Reference" "U4" (at 45.72 52.07 0)
+    (property "Reference" "U5" (at 45.72 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BMI270" (at 45.72 54.61 0)
@@ -1213,7 +1213,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1222,7 +1222,7 @@
   (symbol (lib_id "power:GND") (at 67.31 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e1fa8ff-7092-4ac5-8861-a42a6c677667)
-    (property "Reference" "#PWR036" (at 67.31 69.85 0)
+    (property "Reference" "#PWR045" (at 67.31 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 68.58 0)
@@ -1238,7 +1238,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1247,7 +1247,7 @@
   (symbol (lib_id "power:VBUS") (at 101.6 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91fbd8b5-5433-4f5b-b630-e52cd7e02e87)
-    (property "Reference" "#PWR038" (at 101.6 27.94 0)
+    (property "Reference" "#PWR033" (at 101.6 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 101.6 20.32 0)
@@ -1263,7 +1263,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1272,7 +1272,7 @@
   (symbol (lib_id "power:+3V3") (at 19.05 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0fc9c3a-39c6-44be-b1b6-a9271fa28f0c)
-    (property "Reference" "#PWR030" (at 19.05 36.83 0)
+    (property "Reference" "#PWR037" (at 19.05 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 19.05 29.21 0)
@@ -1288,7 +1288,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1297,7 +1297,7 @@
   (symbol (lib_id "impulse:HP203B") (at 43.18 11.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bba6e0cc-bd6c-41c1-bd65-d10496f87b3e)
-    (property "Reference" "U3" (at 45.1359 16.51 0)
+    (property "Reference" "U4" (at 45.1359 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HP203B" (at 45.1359 19.05 0)
@@ -1320,7 +1320,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1381,7 +1381,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1390,7 +1390,7 @@
   (symbol (lib_id "power:+3V3") (at 67.31 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd2b1df6-be90-4dec-8eb4-ce88a91b3469)
-    (property "Reference" "#PWR037" (at 67.31 62.23 0)
+    (property "Reference" "#PWR044" (at 67.31 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 67.31 54.61 0)
@@ -1406,7 +1406,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1415,7 +1415,7 @@
   (symbol (lib_id "power:GND") (at 19.05 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de023b04-0062-4806-a5a9-320b902d1268)
-    (property "Reference" "#PWR031" (at 19.05 44.45 0)
+    (property "Reference" "#PWR042" (at 19.05 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 19.05 43.18 0)
@@ -1431,7 +1431,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1440,7 +1440,7 @@
   (symbol (lib_id "Device:C_Small") (at 76.2 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5408ecc-8bac-4692-84ca-f017c643e0ae)
-    (property "Reference" "C13" (at 78.74 60.3313 0)
+    (property "Reference" "C14" (at 78.74 60.3313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 78.74 62.8713 0)
@@ -1457,7 +1457,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "C13") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1466,7 +1466,7 @@
   (symbol (lib_id "power:GND") (at 33.02 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef5a72ae-1f77-497d-a311-1874d0377f3b)
-    (property "Reference" "#PWR029" (at 33.02 41.91 0)
+    (property "Reference" "#PWR039" (at 33.02 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 40.64 0)
@@ -1482,7 +1482,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1491,7 +1491,7 @@
   (symbol (lib_id "power:+3V3") (at 74.93 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5b2e334-1afd-4932-8f68-6021ad02b47f)
-    (property "Reference" "#PWR044" (at 74.93 30.48 0)
+    (property "Reference" "#PWR035" (at 74.93 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 74.93 22.86 0)
@@ -1507,7 +1507,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1516,7 +1516,7 @@
   (symbol (lib_id "power:+3V3") (at 43.18 17.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fad94822-ce4a-4ecc-8e3b-8fc2ae21a494)
-    (property "Reference" "#PWR027" (at 43.18 21.59 0)
+    (property "Reference" "#PWR032" (at 43.18 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 43.18 13.97 0)
@@ -1532,7 +1532,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
