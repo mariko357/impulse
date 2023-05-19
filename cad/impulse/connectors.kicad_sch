@@ -2073,7 +2073,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 279.4 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a7ee5e3-bad5-49d3-84f2-29327c3ef3be)
-    (property "Reference" "J5" (at 278.13 13.97 0)
+    (property "Reference" "J6" (at 278.13 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 273.05 16.51 0)
@@ -2085,6 +2085,9 @@
     (property "Datasheet" "~" (at 279.4 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 279.4 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fa8766d0-d105-4f5a-b91a-8062a9a546fc))
     (pin "2" (uuid 1e5154be-9713-4e7a-b9fc-69dfa1e6a9b7))
     (pin "3" (uuid a093bf24-11de-4ef5-b88e-277d8cb0a8b3))
@@ -2094,7 +2097,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2103,7 +2106,7 @@
   (symbol (lib_id "power:VBUS") (at 29.21 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11cc26c0-71bc-4e8f-b02a-9b8e591851a8)
-    (property "Reference" "#PWR088" (at 29.21 184.15 0)
+    (property "Reference" "#PWR055" (at 29.21 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 29.21 176.53 0)
@@ -2119,7 +2122,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2128,7 +2131,7 @@
   (symbol (lib_id "power:GND") (at 266.7 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 139ba01f-e57d-4194-a42d-8c2fc0d26372)
-    (property "Reference" "#PWR0107" (at 266.7 154.94 0)
+    (property "Reference" "#PWR051" (at 266.7 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 152.4 0)
@@ -2144,7 +2147,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -2153,7 +2156,7 @@
   (symbol (lib_id "power:GND") (at 16.51 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13f98c03-9e81-4a02-8c73-f10e02fbb9c4)
-    (property "Reference" "#PWR031" (at 16.51 175.26 0)
+    (property "Reference" "#PWR053" (at 16.51 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 173.99 0)
@@ -2169,7 +2172,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2178,7 +2181,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 145250d7-86b5-4ac5-9e6c-5126dd2cdeab)
-    (property "Reference" "R9" (at 232.41 67.31 90)
+    (property "Reference" "R14" (at 232.41 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 236.22 67.31 90)
@@ -2190,12 +2193,15 @@
     (property "Datasheet" "~" (at 232.41 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C3152095" (at 232.41 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b86661d2-317f-439f-96a0-f155889b2cfc))
     (pin "2" (uuid 948d01fb-0ce0-4331-809a-dce3cbd8c731))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2204,7 +2210,7 @@
   (symbol (lib_id "power:GND") (at 43.18 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b2c9ac9-d063-468c-b834-8470cf550c86)
-    (property "Reference" "#PWR087" (at 43.18 181.61 0)
+    (property "Reference" "#PWR054" (at 43.18 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 180.34 0)
@@ -2220,7 +2226,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -2229,7 +2235,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 20.32 184.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cada832-652a-4f91-b714-4716771c4f83)
-    (property "Reference" "J10" (at 20.32 175.26 0)
+    (property "Reference" "J12" (at 20.32 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB125-2.54" (at 20.32 177.8 0)
@@ -2241,12 +2247,15 @@
     (property "Datasheet" "~" (at 20.32 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 20.32 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a6c86992-5e3a-44af-88df-62af38f5b80c))
     (pin "2" (uuid 07f23681-854d-4ade-a618-662fa81b16d3))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J10") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -2255,7 +2264,7 @@
   (symbol (lib_id "power:GND") (at 43.18 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2296f628-2006-4393-89b1-856ef1a4f2bb)
-    (property "Reference" "#PWR029" (at 43.18 142.24 0)
+    (property "Reference" "#PWR047" (at 43.18 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 140.97 0)
@@ -2271,7 +2280,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -2280,7 +2289,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25bfa3e9-7305-412b-a942-a7046833f806)
-    (property "Reference" "R7" (at 45.72 93.345 0)
+    (property "Reference" "R16" (at 45.72 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 45.72 95.885 0)
@@ -2292,12 +2301,15 @@
     (property "Datasheet" "~" (at 43.18 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C103059" (at 43.18 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6cc4c252-ac10-4252-80fa-1341bda342ef))
     (pin "2" (uuid ee53b7a4-6475-4320-b670-33b10f6e4f17))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R7") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2306,7 +2318,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 279a06b9-fcb6-419b-a28a-cdb21a2466c5)
-    (property "Reference" "R11" (at 45.72 132.715 0)
+    (property "Reference" "R18" (at 45.72 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 45.72 135.255 0)
@@ -2318,12 +2330,15 @@
     (property "Datasheet" "~" (at 43.18 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C103059" (at 43.18 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ace64ed9-b47a-4c8c-88c3-f1e863e43e0c))
     (pin "2" (uuid d97f867c-2350-4bd5-868b-672ad4817b40))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R11") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -2332,7 +2347,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 259.08 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bbece2a-cea9-4454-94a3-65147a2994cc)
-    (property "Reference" "U3" (at 260.7311 64.77 0)
+    (property "Reference" "U6" (at 260.7311 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USBLC6-2SC6" (at 260.7311 67.31 0)
@@ -2344,6 +2359,9 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 264.16 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C558442" (at 259.08 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7ec1bd88-a818-403e-a367-f853c9e39600))
     (pin "2" (uuid a3543c71-6587-4b40-a738-022a4bcac84b))
     (pin "3" (uuid cb7a01e2-521b-4a73-b1c0-8a8581613fdd))
@@ -2353,7 +2371,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2362,7 +2380,7 @@
   (symbol (lib_id "power:GND") (at 213.36 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 304c5389-4ac0-4a1f-aaee-9b22d12a89bb)
-    (property "Reference" "#PWR027" (at 213.36 101.6 0)
+    (property "Reference" "#PWR040" (at 213.36 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 100.33 0)
@@ -2378,7 +2396,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2387,7 +2405,7 @@
   (symbol (lib_id "Device:R_Small") (at 232.41 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 360766e9-0869-47e5-b0c9-9b1b249ccdb0)
-    (property "Reference" "R8" (at 232.41 59.69 90)
+    (property "Reference" "R13" (at 232.41 59.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 236.22 59.69 90)
@@ -2399,12 +2417,15 @@
     (property "Datasheet" "~" (at 232.41 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C3152095" (at 232.41 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c6612db9-2f40-4b3f-98dd-2b3d4cf131b8))
     (pin "2" (uuid 598b3373-c609-4308-ac40-1f2672366403))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R8") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2413,7 +2434,7 @@
   (symbol (lib_id "power:GND") (at 43.18 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39a703c0-659b-48be-8565-71d920b7c49a)
-    (property "Reference" "#PWR086" (at 43.18 63.5 0)
+    (property "Reference" "#PWR035" (at 43.18 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 62.23 0)
@@ -2429,7 +2450,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -2438,7 +2459,7 @@
   (symbol (lib_id "power:GND") (at 250.19 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39e46879-9f7f-4a39-80ce-22659890a332)
-    (property "Reference" "#PWR0100" (at 250.19 127 0)
+    (property "Reference" "#PWR044" (at 250.19 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 124.46 0)
@@ -2454,7 +2475,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2463,7 +2484,7 @@
   (symbol (lib_id "power:GND") (at 38.1 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b3a3011-1a67-4276-aefe-cf8f05248af5)
-    (property "Reference" "#PWR017" (at 38.1 27.94 0)
+    (property "Reference" "#PWR030" (at 38.1 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 26.67 0)
@@ -2479,7 +2500,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -2488,7 +2509,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fd64f9d-3a91-4605-9a1b-5737556e676f)
-    (property "Reference" "R33" (at 41.91 45.72 90)
+    (property "Reference" "R11" (at 41.91 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "665r" (at 41.91 48.26 90)
@@ -2500,12 +2521,15 @@
     (property "Datasheet" "~" (at 40.64 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C3015970" (at 40.64 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9029af28-dbc7-4e8f-a371-00bdff4f39c1))
     (pin "2" (uuid 241d132e-073f-40bc-8030-cfb9f9e09fff))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R33") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2514,7 +2538,7 @@
   (symbol (lib_id "Device:D_Small") (at 29.21 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4497c91e-cbbc-424c-b105-00748cef01e7)
-    (property "Reference" "D4" (at 31.75 139.7 90)
+    (property "Reference" "D5" (at 31.75 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007W" (at 31.75 142.24 90)
@@ -2532,12 +2556,15 @@
     (property "Sim.Pins" "1=K 2=A" (at 29.21 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C2944153" (at 29.21 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 26de9373-e637-45b8-9060-f62b127dae5a))
     (pin "2" (uuid d2a126f9-7af8-4a3f-80d4-931c32a220e1))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "D4") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2546,7 +2573,7 @@
   (symbol (lib_id "power:VBUS") (at 29.21 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4699bd37-4f03-41e7-8490-f634030a6dd4)
-    (property "Reference" "#PWR030" (at 29.21 144.78 0)
+    (property "Reference" "#PWR048" (at 29.21 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 29.21 137.16 0)
@@ -2562,7 +2589,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -2571,7 +2598,7 @@
   (symbol (lib_id "power:GND") (at 274.32 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47988cb5-743a-471e-8bdc-2d6f286398ea)
-    (property "Reference" "#PWR0108" (at 274.32 154.94 0)
+    (property "Reference" "#PWR052" (at 274.32 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 152.4 0)
@@ -2587,7 +2614,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -2596,7 +2623,7 @@
   (symbol (lib_id "Device:D_Small") (at 29.21 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 489f1f15-66bf-4ad5-a52c-91959431e9ab)
-    (property "Reference" "D3" (at 31.75 100.33 90)
+    (property "Reference" "D4" (at 31.75 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007W" (at 31.75 102.87 90)
@@ -2614,12 +2641,15 @@
     (property "Sim.Pins" "1=K 2=A" (at 29.21 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C2944153" (at 29.21 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 53fddcf9-a4e5-4bdf-9cbf-f27bd395e54b))
     (pin "2" (uuid 2dbdd684-7d0b-481d-bedb-605fbed429e1))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2640,6 +2670,9 @@
     (property "Datasheet" "~" (at 266.7 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 266.7 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 371713a9-b18e-49c2-91b7-d8809d0adb38))
     (instances
       (project "impulse"
@@ -2653,7 +2686,7 @@
   (symbol (lib_id "power:GND") (at 259.08 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bd60a81-2ac5-454a-bcd9-6a853606ab10)
-    (property "Reference" "#PWR0106" (at 259.08 154.94 0)
+    (property "Reference" "#PWR050" (at 259.08 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 152.4 0)
@@ -2669,7 +2702,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -2678,7 +2711,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 213.36 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58d537d3-c77e-491d-ad55-5b5deb5269ed)
-    (property "Reference" "J7" (at 213.36 50.8 0)
+    (property "Reference" "J8" (at 213.36 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GT-USB-7010ASV" (at 213.36 53.34 0)
@@ -2688,6 +2721,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 217.17 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "lcsc" "C2988369" (at 213.36 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid 5e8d8db7-4b14-4977-8851-0068ec539b0a))
@@ -2710,7 +2746,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J7") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2719,7 +2755,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5918e17d-33c4-45c8-9e0e-1c34d3029dc8)
-    (property "Reference" "R10" (at 41.91 124.46 90)
+    (property "Reference" "R17" (at 41.91 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "665r" (at 41.91 127 90)
@@ -2731,12 +2767,15 @@
     (property "Datasheet" "~" (at 40.64 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C3015970" (at 40.64 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6d42c809-3ec0-4fc1-a896-9771a2180707))
     (pin "2" (uuid ea44ef0f-6928-4994-8a89-84aed871dbd6))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R10") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2745,7 +2784,7 @@
   (symbol (lib_id "power:GND") (at 16.51 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6968b7ec-0ef2-409a-9e64-61f02efd2984)
-    (property "Reference" "#PWR085" (at 16.51 57.15 0)
+    (property "Reference" "#PWR034" (at 16.51 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 55.88 0)
@@ -2761,7 +2800,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2770,7 +2809,7 @@
   (symbol (lib_id "power:VBUS") (at 29.21 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d4c9018-cfb6-4d22-bd29-54ee4733f21a)
-    (property "Reference" "#PWR026" (at 29.21 105.41 0)
+    (property "Reference" "#PWR042" (at 29.21 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 29.21 97.79 0)
@@ -2786,7 +2825,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -2795,7 +2834,7 @@
   (symbol (lib_id "power:GND") (at 16.51 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d759b7d-847e-479d-bee9-308fddeab798)
-    (property "Reference" "#PWR021" (at 16.51 96.52 0)
+    (property "Reference" "#PWR039" (at 16.51 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 95.25 0)
@@ -2811,7 +2850,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -2820,7 +2859,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 27.94 21.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7294e97e-937f-4d63-ae8d-13aeeb7221e3)
-    (property "Reference" "J1" (at 22.86 13.97 0)
+    (property "Reference" "J2" (at 22.86 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB125-2.54" (at 22.86 16.51 0)
@@ -2832,12 +2871,15 @@
     (property "Datasheet" "~" (at 27.94 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 27.94 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 42ef858d-baf8-4730-974a-a8b4db37b683))
     (pin "2" (uuid 69a6dc8c-679b-4acf-9225-8752e78454e5))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2846,7 +2888,7 @@
   (symbol (lib_id "power:VBUS") (at 38.1 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73e32152-7957-4e0f-a496-2658c2332eb5)
-    (property "Reference" "#PWR015" (at 38.1 22.86 0)
+    (property "Reference" "#PWR028" (at 38.1 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 38.1 15.24 0)
@@ -2862,7 +2904,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2871,7 +2913,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 20.32 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84f846d8-28d0-4fc7-96f3-5f9b2d55ef17)
-    (property "Reference" "J6" (at 20.32 57.15 0)
+    (property "Reference" "J7" (at 20.32 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB125-2.54" (at 20.32 59.69 0)
@@ -2883,12 +2925,15 @@
     (property "Datasheet" "~" (at 20.32 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 20.32 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2243183d-3bab-4fa4-9288-d54d77f92ed4))
     (pin "2" (uuid 89b4eafb-d4d4-41ef-a3fa-dee221b536d9))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J6") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2897,7 +2942,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86796473-c6dd-46f0-b5dc-af74a7d3d603)
-    (property "Reference" "R12" (at 41.91 163.83 90)
+    (property "Reference" "R19" (at 41.91 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "665r" (at 41.91 166.37 90)
@@ -2909,12 +2954,15 @@
     (property "Datasheet" "~" (at 40.64 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C3015970" (at 40.64 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c3377ad0-73c9-4010-bff0-91d1188ebde1))
     (pin "2" (uuid c541a28e-3f79-4dcf-aadb-494054838812))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R12") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2935,6 +2983,9 @@
     (property "Datasheet" "~" (at 274.32 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 274.32 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4b379060-0631-4269-ac6b-f701acd51235))
     (instances
       (project "impulse"
@@ -2948,7 +2999,7 @@
   (symbol (lib_id "power:GND") (at 250.19 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 885cd277-a0c6-4a33-b2c0-b0477cec9128)
-    (property "Reference" "#PWR099" (at 250.19 119.38 0)
+    (property "Reference" "#PWR043" (at 250.19 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 116.84 0)
@@ -2964,7 +3015,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -2973,7 +3024,7 @@
   (symbol (lib_id "power:+5V") (at 76.2 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89683a28-3977-441f-9082-6d96b032dafb)
-    (property "Reference" "#PWR016" (at 76.2 22.86 0)
+    (property "Reference" "#PWR029" (at 76.2 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 76.2 15.24 0)
@@ -2989,7 +3040,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2998,7 +3049,7 @@
   (symbol (lib_id "Device:D_Small") (at 29.21 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b622525-6c4e-4992-8ee6-b074d6d4b090)
-    (property "Reference" "D2" (at 31.75 60.96 90)
+    (property "Reference" "D3" (at 31.75 60.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007W" (at 31.75 63.5 90)
@@ -3016,12 +3067,15 @@
     (property "Sim.Pins" "1=K 2=A" (at 29.21 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C2944153" (at 29.21 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 06d2d898-128a-4bd1-8106-752e68e63132))
     (pin "2" (uuid 195499d1-6ed8-4bf0-98f3-63aca86964d7))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3030,7 +3084,7 @@
   (symbol (lib_id "power:GND") (at 16.51 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bd6635e-7239-4feb-97bb-e26c95515fed)
-    (property "Reference" "#PWR028" (at 16.51 135.89 0)
+    (property "Reference" "#PWR046" (at 16.51 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 134.62 0)
@@ -3046,7 +3100,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3055,7 +3109,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 254 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a625bfa-0f9e-4d5e-accc-def10d7c3070)
-    (property "Reference" "J3" (at 252.73 13.97 0)
+    (property "Reference" "J4" (at 252.73 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 247.65 16.51 0)
@@ -3067,6 +3121,9 @@
     (property "Datasheet" "~" (at 254 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 254 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d0955d66-bb3f-47ee-a812-62ef6d6d1de8))
     (pin "2" (uuid e6cbc3dd-ee1a-48f8-ba05-d06c9f7ffa36))
     (pin "3" (uuid 1c385711-eaad-436c-be44-2320e09b1a89))
@@ -3076,7 +3133,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3085,7 +3142,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 67.31 21.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a26a089b-8a12-4e42-b2df-14297e70aeed)
-    (property "Reference" "J2" (at 62.23 13.97 0)
+    (property "Reference" "J3" (at 62.23 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB125-2.54" (at 62.23 16.51 0)
@@ -3097,12 +3154,15 @@
     (property "Datasheet" "~" (at 67.31 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 67.31 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8859d67f-a2f2-4e94-9131-29a97ed7d382))
     (pin "2" (uuid 261944fa-b6df-455a-a460-d71d97edf8be))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3111,7 +3171,7 @@
   (symbol (lib_id "impulse:LN2324DT2AG") (at 25.4 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa35ee4d-d543-48b5-992a-1eee0a02a6e2)
-    (property "Reference" "U12" (at 25.4 153.67 0)
+    (property "Reference" "U8" (at 25.4 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LN2324DT2AG" (at 25.4 156.21 0)
@@ -3123,6 +3183,9 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1804172052_LRC-LN2324DT2AG_C172432.pdf" (at 25.4 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" " C172432" (at 25.4 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6d5c2cea-9ebf-46af-8170-b51e373c5b9d))
     (pin "2" (uuid 5828e184-9db5-4486-bf6c-ede067fc4fb5))
     (pin "3" (uuid 0006f9dc-619b-49c8-90ab-b76301662e10))
@@ -3132,7 +3195,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "U12") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3141,7 +3204,7 @@
   (symbol (lib_id "power:GND") (at 251.46 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aec919dc-14d3-4ea4-8894-798d977547b6)
-    (property "Reference" "#PWR0105" (at 251.46 154.94 0)
+    (property "Reference" "#PWR049" (at 251.46 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 152.4 0)
@@ -3157,7 +3220,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -3166,7 +3229,7 @@
   (symbol (lib_id "power:GND") (at 250.19 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b48c56dc-7462-4c50-8fab-d195ff9a2ded)
-    (property "Reference" "#PWR0101" (at 250.19 132.08 0)
+    (property "Reference" "#PWR045" (at 250.19 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 129.54 0)
@@ -3182,7 +3245,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -3191,7 +3254,7 @@
   (symbol (lib_id "power:GND") (at 238.76 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb9b629a-8f17-4616-9948-cdb2f2f825d0)
-    (property "Reference" "#PWR023" (at 238.76 69.85 0)
+    (property "Reference" "#PWR037" (at 238.76 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 68.58 0)
@@ -3207,7 +3270,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3216,7 +3279,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0bf015f-edd2-40dc-a46a-72028800c8d7)
-    (property "Reference" "R13" (at 45.72 172.085 0)
+    (property "Reference" "R20" (at 45.72 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 45.72 174.625 0)
@@ -3228,12 +3291,15 @@
     (property "Datasheet" "~" (at 43.18 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C103059" (at 43.18 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 66346897-508a-4103-9e07-7572487e44e7))
     (pin "2" (uuid 246ef64b-640e-4eaf-86bd-73505a418e2f))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R13") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3242,7 +3308,7 @@
   (symbol (lib_id "power:GND") (at 76.2 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1fc9157-a477-4d13-a2ce-5d923ad8e1c4)
-    (property "Reference" "#PWR018" (at 76.2 27.94 0)
+    (property "Reference" "#PWR031" (at 76.2 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 26.67 0)
@@ -3258,7 +3324,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3277,6 +3343,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "lcsc" "" (at 259.08 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b388e631-40b0-4e37-9869-e661b3234e4c))
@@ -3304,6 +3373,9 @@
     (property "Datasheet" "~" (at 251.46 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 251.46 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7488143a-2227-4484-b5d5-e6ad6e768815))
     (instances
       (project "impulse"
@@ -3317,7 +3389,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 20.32 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c88b7a1f-fa00-44b9-a353-aa517846a352)
-    (property "Reference" "J9" (at 20.32 135.89 0)
+    (property "Reference" "J11" (at 20.32 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB125-2.54" (at 20.32 138.43 0)
@@ -3329,12 +3401,15 @@
     (property "Datasheet" "~" (at 20.32 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 20.32 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 775fc403-7cb8-4c73-a0b4-2ba7a29b7a4c))
     (pin "2" (uuid 456eea8b-9e7f-48b3-8ca0-110e7bd5ba6c))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J9") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -3343,7 +3418,7 @@
   (symbol (lib_id "power:VBUS") (at 29.21 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3919bf8-2d6e-4332-aded-ef444d2790fc)
-    (property "Reference" "#PWR022" (at 29.21 66.04 0)
+    (property "Reference" "#PWR036" (at 29.21 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 29.21 58.42 0)
@@ -3359,7 +3434,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3368,7 +3443,7 @@
   (symbol (lib_id "power:GND") (at 259.08 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d67f0ff0-3268-4051-9d9b-b0427317950c)
-    (property "Reference" "#PWR025" (at 259.08 92.71 0)
+    (property "Reference" "#PWR038" (at 259.08 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 91.44 0)
@@ -3384,7 +3459,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3393,7 +3468,7 @@
   (symbol (lib_id "Device:D_Small") (at 29.21 182.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d78b6457-48af-4c9c-beb2-314e1473b49a)
-    (property "Reference" "D5" (at 31.75 179.07 90)
+    (property "Reference" "D6" (at 31.75 179.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007W" (at 31.75 181.61 90)
@@ -3411,12 +3486,15 @@
     (property "Sim.Pins" "1=K 2=A" (at 29.21 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C2944153" (at 29.21 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5e7c9564-1d46-4160-8ef1-84be5752bc24))
     (pin "2" (uuid a1823f25-dce8-47fb-9684-ae9cf59a3d7d))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "D5") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3425,7 +3503,7 @@
   (symbol (lib_id "power:+5V") (at 257.81 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8e42204-1cad-4a1b-912e-326941d07828)
-    (property "Reference" "#PWR019" (at 257.81 31.75 0)
+    (property "Reference" "#PWR032" (at 257.81 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 257.81 24.13 0)
@@ -3441,7 +3519,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3450,7 +3528,7 @@
   (symbol (lib_id "impulse:LN2324DT2AG") (at 25.4 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dab97830-2efa-463b-9ac1-7bad47554b32)
-    (property "Reference" "U10" (at 25.4 74.93 0)
+    (property "Reference" "U5" (at 25.4 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LN2324DT2AG" (at 25.4 77.47 0)
@@ -3462,6 +3540,9 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1804172052_LRC-LN2324DT2AG_C172432.pdf" (at 25.4 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" " C172432" (at 25.4 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 54ae13af-5733-4c27-98ee-fe4376d4b687))
     (pin "2" (uuid c261d203-9a1c-460e-b333-7ca000e92129))
     (pin "3" (uuid 727be9ea-8908-470f-ae29-750faa5e60d2))
@@ -3471,7 +3552,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "U10") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3480,7 +3561,7 @@
   (symbol (lib_id "impulse:LN2324DT2AG") (at 25.4 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e31277a1-1400-4faa-b02f-e29e5da9b27e)
-    (property "Reference" "U11" (at 25.4 114.3 0)
+    (property "Reference" "U7" (at 25.4 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LN2324DT2AG" (at 25.4 116.84 0)
@@ -3492,6 +3573,9 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1804172052_LRC-LN2324DT2AG_C172432.pdf" (at 25.4 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" " C172432" (at 25.4 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4c7806d9-a311-4bd8-9e63-8f559a8c1be5))
     (pin "2" (uuid b629fedb-21c1-4e5d-8857-8eeb8146f42f))
     (pin "3" (uuid ce19f6ee-f757-4beb-b814-335c608a1cd4))
@@ -3501,7 +3585,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "U11") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -3510,7 +3594,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 269.24 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e41d3f4a-a64d-4e37-bc1c-4a7d538fed1a)
-    (property "Reference" "J13" (at 271.78 118.745 0)
+    (property "Reference" "J10" (at 271.78 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x10" (at 271.78 121.285 0)
@@ -3520,6 +3604,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 269.24 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "lcsc" "C283121" (at 269.24 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cff8eee3-04b6-45ab-ac96-7c8f653b3cdc))
@@ -3535,7 +3622,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J13") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -3544,7 +3631,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 266.7 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e68340f0-3c2b-48d5-ab9c-e2a9e5662c37)
-    (property "Reference" "J4" (at 265.43 13.97 0)
+    (property "Reference" "J5" (at 265.43 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 260.35 16.51 0)
@@ -3556,6 +3643,9 @@
     (property "Datasheet" "~" (at 266.7 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 266.7 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0a9643ef-6840-4cdf-9ddf-65c7f9fdf682))
     (pin "2" (uuid e4714ef0-637b-487d-ac44-69b3afd89cfb))
     (pin "3" (uuid 4574c861-37d0-49e5-9b2d-58d7392e2254))
@@ -3565,7 +3655,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3574,7 +3664,7 @@
   (symbol (lib_id "power:GND") (at 270.51 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8d1a735-99b4-433c-9491-65a6b6f61954)
-    (property "Reference" "#PWR020" (at 270.51 34.29 0)
+    (property "Reference" "#PWR033" (at 270.51 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 270.51 33.02 0)
@@ -3590,7 +3680,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3599,7 +3689,7 @@
   (symbol (lib_id "power:GND") (at 43.18 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea0cdcb1-3134-466c-bc5d-4abeeca46499)
-    (property "Reference" "#PWR024" (at 43.18 102.87 0)
+    (property "Reference" "#PWR041" (at 43.18 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 101.6 0)
@@ -3615,7 +3705,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3624,7 +3714,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efcb3add-0fa6-462f-8085-1e9278bcaf58)
-    (property "Reference" "R6" (at 41.91 85.09 90)
+    (property "Reference" "R15" (at 41.91 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "665r" (at 41.91 87.63 90)
@@ -3636,12 +3726,15 @@
     (property "Datasheet" "~" (at 40.64 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C3015970" (at 40.64 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6ea31c27-e4b8-4315-8167-9ffa74bc7584))
     (pin "2" (uuid 629e9e4b-803c-4b4e-8731-a69846268911))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R6") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3650,7 +3743,7 @@
   (symbol (lib_id "impulse:LN2324DT2AG") (at 25.4 33.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f17cd6b3-40a7-444d-98be-1fa9545b5854)
-    (property "Reference" "U9" (at 25.4 35.56 0)
+    (property "Reference" "U4" (at 25.4 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LN2324DT2AG" (at 25.4 38.1 0)
@@ -3662,6 +3755,9 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1804172052_LRC-LN2324DT2AG_C172432.pdf" (at 25.4 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" " C172432" (at 25.4 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ad7dc9cc-3c1c-4df8-afd7-4fd4fcf6c115))
     (pin "2" (uuid b6f828d0-34cf-4b1d-85b9-87a000fc34f9))
     (pin "3" (uuid c82db160-ffea-4129-9b76-4300fa729db9))
@@ -3671,7 +3767,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "U9") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -3680,7 +3776,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 20.32 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ba6ef2-5a82-470e-b464-67077dc8b56b)
-    (property "Reference" "J8" (at 20.32 96.52 0)
+    (property "Reference" "J9" (at 20.32 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB125-2.54" (at 20.32 99.06 0)
@@ -3692,12 +3788,15 @@
     (property "Datasheet" "~" (at 20.32 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 20.32 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a484977c-a07f-464b-9437-231c545c1aef))
     (pin "2" (uuid b837334f-f434-45dc-8795-ac3d3675a3a7))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3706,7 +3805,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa680c9d-d651-4325-9d32-bff983f90080)
-    (property "Reference" "R34" (at 45.72 53.975 0)
+    (property "Reference" "R12" (at 45.72 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 45.72 56.515 0)
@@ -3718,12 +3817,15 @@
     (property "Datasheet" "~" (at 43.18 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C103059" (at 43.18 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9ccc9008-451b-4fe0-b190-1aca5a2d41cd))
     (pin "2" (uuid ff477eb4-777a-40ab-a925-e9dc85b38553))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/bd071931-4d7b-4c0e-9292-4e2ffd2aeeb4"
-          (reference "R34") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )

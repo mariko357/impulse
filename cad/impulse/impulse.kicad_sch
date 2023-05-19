@@ -1008,7 +1008,6 @@
     )
   )
 
-
   (junction (at 248.92 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 254ad21c-690d-44d0-a0fa-beaf5f9711fd)
   )
@@ -1587,7 +1586,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 247.65 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b7867f9-cc65-4631-a771-c6cec26eaeb6)
-    (property "Reference" "Y2" (at 240.03 59.69 0)
+    (property "Reference" "Y1" (at 240.03 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "X252016MLB4SI" (at 236.22 62.23 0)
@@ -1599,6 +1598,9 @@
     (property "Datasheet" "~" (at 247.65 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C784073" (at 247.65 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 960fdc54-895a-47ae-89d8-88e1c33908a2))
     (pin "2" (uuid 5075c588-99e5-45c4-8e12-63bbe79868f5))
     (pin "3" (uuid b33e386e-c969-48c3-bde1-ba5382034391))
@@ -1606,7 +1608,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "Y2") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -1615,7 +1617,7 @@
   (symbol (lib_id "MCU_ST_STM32G4:STM32G431CBUx") (at 95.25 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 189d8970-444d-41a7-a80e-a20ae87cefed)
-    (property "Reference" "U13" (at 90.17 27.94 0)
+    (property "Reference" "U1" (at 90.17 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G431CBUx" (at 90.17 30.48 0)
@@ -1625,6 +1627,9 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf" (at 95.25 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "lcsc" "C529356" (at 95.25 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b01d9a06-ec4f-4181-97d0-6e9f049dc4b3))
@@ -1679,7 +1684,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "U13") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1688,7 +1693,7 @@
   (symbol (lib_id "power:+3V3") (at 97.79 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fabd0a3-3d5e-4d43-9cd8-3de182e0b477)
-    (property "Reference" "#PWR092" (at 97.79 43.18 0)
+    (property "Reference" "#PWR05" (at 97.79 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 97.79 35.56 0)
@@ -1704,7 +1709,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1713,7 +1718,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise") (at 185.42 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c2c36db-1f6f-4db0-bce0-f0385f6a885a)
-    (property "Reference" "J14" (at 185.42 22.86 0)
+    (property "Reference" "J1" (at 185.42 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Counter_Clockwise" (at 185.42 25.4 0)
@@ -1723,6 +1728,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "lcsc" "C2685182" (at 185.42 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3dd4021c-9456-411e-b05a-2d2777685a00))
@@ -1736,7 +1744,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "J14") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1745,7 +1753,7 @@
   (symbol (lib_id "power:+3V3") (at 250.19 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e421ce1-7c6f-436e-9ab5-ba0d8e6cf51f)
-    (property "Reference" "#PWR095" (at 250.19 45.72 0)
+    (property "Reference" "#PWR08" (at 250.19 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 250.19 38.1 0)
@@ -1761,7 +1769,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1770,7 +1778,7 @@
   (symbol (lib_id "Device:C_Small") (at 231.14 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 604842ac-2f7f-46c6-a1d2-32a4463c392a)
-    (property "Reference" "C42" (at 233.68 43.8213 0)
+    (property "Reference" "C5" (at 233.68 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 233.68 45.72 0)
@@ -1782,12 +1790,15 @@
     (property "Datasheet" "~" (at 231.14 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "" (at 231.14 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 379a7152-11e9-4e0b-aa7e-63cb68e577ad))
     (pin "2" (uuid 7043cb68-2d17-40ac-befc-26d9c2101920))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C42") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1796,7 +1807,7 @@
   (symbol (lib_id "Device:R_Small") (at 172.72 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 675cfd5e-4e45-4904-bf83-5a8c7ba1fcf5)
-    (property "Reference" "R14" (at 172.72 31.75 90)
+    (property "Reference" "R1" (at 172.72 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 172.72 34.29 90)
@@ -1808,12 +1819,15 @@
     (property "Datasheet" "~" (at 172.72 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C21376" (at 172.72 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 466a7ad6-f0ee-4a25-b333-ad801172029b))
     (pin "2" (uuid 56728ab4-bbde-4623-bef6-b62d72c523ce))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "R14") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1822,7 +1836,7 @@
   (symbol (lib_id "Device:R_Small") (at 172.72 39.37 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 689d672a-4364-400f-88f8-f24ff6fdf2d7)
-    (property "Reference" "R15" (at 172.72 44.45 90)
+    (property "Reference" "R3" (at 172.72 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 172.72 41.91 90)
@@ -1834,12 +1848,15 @@
     (property "Datasheet" "~" (at 172.72 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C21376" (at 172.72 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 84d2800b-4df1-426d-98fb-ec038dc860a0))
     (pin "2" (uuid 8719cb09-3988-4cf9-b9e1-64be7be6c28d))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "R15") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1848,7 +1865,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 40.64 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79e3b726-e518-48d5-bcc0-b3eb3cd26540)
-    (property "Reference" "R36" (at 212.09 45.72 90)
+    (property "Reference" "R4" (at 212.09 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 212.09 43.18 90)
@@ -1860,12 +1877,15 @@
     (property "Datasheet" "~" (at 212.09 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C21376" (at 212.09 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0fd5c1d5-9776-4370-984d-6ecd8142af6f))
     (pin "2" (uuid a8fcce1d-01f9-4a2d-98f2-de218b85faba))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "R36") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1874,7 +1894,7 @@
   (symbol (lib_id "Device:R_Small") (at 195.58 41.91 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e28efc0-186d-42ce-9656-3f31f2e84cfd)
-    (property "Reference" "R37" (at 195.58 46.99 90)
+    (property "Reference" "R5" (at 195.58 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 195.58 44.45 90)
@@ -1886,12 +1906,15 @@
     (property "Datasheet" "~" (at 195.58 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C21376" (at 195.58 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 13820d2b-6457-4b90-abfc-8794b33ec455))
     (pin "2" (uuid 64f66897-8ff4-448c-a007-a456dd90d01f))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "R37") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1900,7 +1923,7 @@
   (symbol (lib_id "power:GND") (at 231.14 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83dc582a-caa5-4b2e-8c41-6fcb25e82c57)
-    (property "Reference" "#PWR094" (at 231.14 53.34 0)
+    (property "Reference" "#PWR09" (at 231.14 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 52.07 0)
@@ -1916,7 +1939,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1925,7 +1948,7 @@
   (symbol (lib_id "power:+3V3") (at 193.04 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e2f205b-f172-41f0-9e3c-f81742663e54)
-    (property "Reference" "#PWR0103" (at 193.04 38.1 0)
+    (property "Reference" "#PWR04" (at 193.04 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 193.04 30.48 0)
@@ -1941,7 +1964,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1950,7 +1973,7 @@
   (symbol (lib_id "Device:C_Small") (at 240.03 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90ce84d2-7eb0-42d9-8887-06e0a45a8f9f)
-    (property "Reference" "C39" (at 242.57 26.0413 0)
+    (property "Reference" "C2" (at 242.57 26.0413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 242.57 27.94 0)
@@ -1962,12 +1985,15 @@
     (property "Datasheet" "~" (at 240.03 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C1525" (at 240.03 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 35e224a7-a6b3-4f9b-ad3f-9886aae8496e))
     (pin "2" (uuid 9ea71f39-ac5a-4810-a0f0-2d1de85ac35a))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C39") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1976,7 +2002,7 @@
   (symbol (lib_id "Device:C_Small") (at 248.92 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f72b97c-e686-4aac-876f-f49b997c04fd)
-    (property "Reference" "C40" (at 251.46 26.0413 0)
+    (property "Reference" "C3" (at 251.46 26.0413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 251.46 27.94 0)
@@ -1988,12 +2014,15 @@
     (property "Datasheet" "~" (at 248.92 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C1525" (at 248.92 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8a9b55be-d0eb-4db5-a477-7cc18193a842))
     (pin "2" (uuid 7678d655-eb82-4324-ba6f-769e23177f29))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C40") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2002,7 +2031,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8afed90-3250-48e0-81f1-bfe97e03ea4e)
-    (property "Reference" "R35" (at 212.09 33.02 90)
+    (property "Reference" "R2" (at 212.09 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 212.09 35.56 90)
@@ -2014,12 +2043,15 @@
     (property "Datasheet" "~" (at 212.09 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C21376" (at 212.09 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b24a6592-632c-4c69-b150-b89aec0fcc56))
     (pin "2" (uuid fe1d512d-cee9-4f46-819a-92c44e2a8b40))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "R35") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2028,7 +2060,7 @@
   (symbol (lib_id "power:GND") (at 247.65 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af6266b4-4564-41ea-896c-9e90b5a3cca2)
-    (property "Reference" "#PWR098" (at 247.65 53.34 0)
+    (property "Reference" "#PWR011" (at 247.65 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 58.42 0)
@@ -2044,7 +2076,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2053,7 +2085,7 @@
   (symbol (lib_id "Device:C_Small") (at 255.27 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2c209a1-854b-4ae4-a9d7-fbae48eb4886)
-    (property "Reference" "C46" (at 257.81 67.31 0)
+    (property "Reference" "C10" (at 257.81 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10p" (at 257.81 69.2087 0)
@@ -2065,12 +2097,15 @@
     (property "Datasheet" "~" (at 255.27 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C1545" (at 255.27 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9f9b26de-51c4-4c0a-914e-32f33ccacdd8))
     (pin "2" (uuid 51a10c0c-4a07-4b89-a09b-0c131875d099))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C46") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2079,7 +2114,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be8a8b79-4b5d-4b51-87b2-f6bd9f3e3ed8)
-    (property "Reference" "C44" (at 252.73 43.8213 0)
+    (property "Reference" "C7" (at 252.73 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 252.73 45.72 0)
@@ -2091,12 +2126,15 @@
     (property "Datasheet" "~" (at 250.19 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C1525" (at 250.19 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2e2a3e22-5cc1-4844-9353-cb665cbf68d6))
     (pin "2" (uuid 963a8320-b5eb-48e6-a405-f26895fa671e))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C44") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2105,7 +2143,7 @@
   (symbol (lib_id "Device:C_Small") (at 259.08 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2f3d61b-4f9f-40fa-ba42-8e248dbb2b7e)
-    (property "Reference" "C45" (at 261.62 43.8213 0)
+    (property "Reference" "C8" (at 261.62 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 261.62 45.72 0)
@@ -2117,12 +2155,15 @@
     (property "Datasheet" "~" (at 259.08 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C167338" (at 259.08 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3e3ff895-d5d4-4acc-ae8e-813a0d17489f))
     (pin "2" (uuid 23eec010-9654-42c2-b99b-931d3e5cc339))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C45") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2131,7 +2172,7 @@
   (symbol (lib_id "power:GND") (at 231.14 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6e23aeb-7a50-4402-a12a-fbe48390a074)
-    (property "Reference" "#PWR091" (at 231.14 35.56 0)
+    (property "Reference" "#PWR02" (at 231.14 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 34.29 0)
@@ -2147,7 +2188,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2156,7 +2197,7 @@
   (symbol (lib_id "power:GND") (at 97.79 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d386b3eb-e84f-444b-85d2-e85c41d8e6cf)
-    (property "Reference" "#PWR089" (at 97.79 138.43 0)
+    (property "Reference" "#PWR013" (at 97.79 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 137.16 0)
@@ -2172,7 +2213,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2181,7 +2222,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d45b7aa4-1fb5-4797-895a-481f6d356c06)
-    (property "Reference" "C41" (at 260.35 26.0413 0)
+    (property "Reference" "C4" (at 260.35 26.0413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 260.35 27.94 0)
@@ -2193,12 +2234,15 @@
     (property "Datasheet" "~" (at 257.81 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C5360855" (at 257.81 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 74b8404e-b76a-425e-8a15-bff8a224a47b))
     (pin "2" (uuid f6ca0395-fc1a-4fcb-95a8-2cff89b409a9))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C41") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2207,7 +2251,7 @@
   (symbol (lib_id "power:+3V3") (at 231.14 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8b8cb3f-fa23-42ad-89f8-5541778d8994)
-    (property "Reference" "#PWR090" (at 231.14 27.94 0)
+    (property "Reference" "#PWR01" (at 231.14 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 231.14 20.32 0)
@@ -2223,7 +2267,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2232,7 +2276,7 @@
   (symbol (lib_id "power:GND") (at 250.19 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1030f1f-a279-4680-ae9a-11dbb457c2a7)
-    (property "Reference" "#PWR096" (at 250.19 53.34 0)
+    (property "Reference" "#PWR010" (at 250.19 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 52.07 0)
@@ -2248,7 +2292,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2257,7 +2301,7 @@
   (symbol (lib_id "power:+3V3") (at 231.14 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1a781f3-402a-4efe-a463-beb44f1a17dc)
-    (property "Reference" "#PWR093" (at 231.14 45.72 0)
+    (property "Reference" "#PWR07" (at 231.14 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 231.14 38.1 0)
@@ -2273,7 +2317,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2282,7 +2326,7 @@
   (symbol (lib_id "Device:C_Small") (at 240.03 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e37660cd-c36f-43cc-be9e-1f86fba96a53)
-    (property "Reference" "C43" (at 242.57 43.8213 0)
+    (property "Reference" "C6" (at 242.57 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 242.57 45.72 0)
@@ -2294,12 +2338,15 @@
     (property "Datasheet" "~" (at 240.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C167338" (at 240.03 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 07079c48-5a5b-448e-83e4-ed6aabc0ee7b))
     (pin "2" (uuid 6b6a2164-8bc6-4926-bd72-4c7b4254adaf))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C43") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2308,7 +2355,7 @@
   (symbol (lib_id "power:GND") (at 180.34 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7ffcc6f-e747-4f30-bdb1-56105f1f382b)
-    (property "Reference" "#PWR0104" (at 180.34 48.26 0)
+    (property "Reference" "#PWR06" (at 180.34 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 45.72 0)
@@ -2324,7 +2371,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2333,7 +2380,7 @@
   (symbol (lib_id "Device:C_Small") (at 240.03 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e827f1ba-7e6e-4ea7-bfa8-3cbf540faf3f)
-    (property "Reference" "C47" (at 237.49 67.9513 0)
+    (property "Reference" "C9" (at 237.49 67.9513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10p" (at 237.49 69.85 0)
@@ -2345,12 +2392,15 @@
     (property "Datasheet" "~" (at 240.03 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C1545" (at 240.03 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e1c02f66-d651-447c-83e5-aabdfcaf85e6))
     (pin "2" (uuid 0f8ca203-a1d3-4ba4-81d2-587502d01fea))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C47") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2359,7 +2409,7 @@
   (symbol (lib_id "Device:C_Small") (at 231.14 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb7c5682-3c5a-4494-9e19-3274f6a653ec)
-    (property "Reference" "C38" (at 233.68 26.0413 0)
+    (property "Reference" "C1" (at 233.68 26.0413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 233.68 27.94 0)
@@ -2371,12 +2421,15 @@
     (property "Datasheet" "~" (at 231.14 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C1525" (at 231.14 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid de409c6c-a572-4632-8693-e8f07f040080))
     (pin "2" (uuid 23c009d3-fd8c-4f7c-9c6e-adecd86ab926))
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "C38") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2385,7 +2438,7 @@
   (symbol (lib_id "power:GND") (at 247.65 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8e759ed-1640-420c-9a5a-a06ba6ebd520)
-    (property "Reference" "#PWR097" (at 247.65 76.2 0)
+    (property "Reference" "#PWR012" (at 247.65 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 73.66 0)
@@ -2401,7 +2454,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2410,7 +2463,7 @@
   (symbol (lib_id "power:GND") (at 180.34 34.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid faff7b4b-fe2f-439a-bcc2-9d7cfbeafc24)
-    (property "Reference" "#PWR0102" (at 180.34 27.94 0)
+    (property "Reference" "#PWR03" (at 180.34 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 30.48 0)
@@ -2426,7 +2479,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
