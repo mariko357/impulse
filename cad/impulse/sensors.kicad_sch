@@ -848,7 +848,7 @@
   (symbol (lib_id "Device:R_Small") (at 74.93 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fd6fd6b-9df9-436b-a009-4edd54dc1529)
-    (property "Reference" "R24" (at 76.2 27.94 0)
+    (property "Reference" "R25" (at 76.2 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 76.2 30.48 0)
@@ -868,7 +868,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R24") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -877,7 +877,7 @@
   (symbol (lib_id "Device:R_Small") (at 25.4 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 217d7fae-39f2-4dbc-b940-65c33d4e6e82)
-    (property "Reference" "R29" (at 25.4 83.82 90)
+    (property "Reference" "R30" (at 25.4 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 25.4 81.28 90)
@@ -897,7 +897,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R29") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 26.67 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29e4c469-f866-48d4-b507-638fdd421dc9)
-    (property "Reference" "R21" (at 99.06 26.035 0)
+    (property "Reference" "R22" (at 99.06 26.035 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13k3" (at 99.06 28.575 0)
@@ -926,7 +926,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -935,7 +935,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 31.75 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42ae00a4-74cc-4dc2-8161-1bc7fa6a40a7)
-    (property "Reference" "R27" (at 99.06 31.115 0)
+    (property "Reference" "R28" (at 99.06 31.115 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2k" (at 99.06 33.655 0)
@@ -955,7 +955,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R27") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -989,7 +989,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1023,7 +1023,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R26") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1136,7 +1136,7 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 33.02 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d382a96-fbb3-4ff6-bf73-15f9c71deb76)
-    (property "Reference" "R28" (at 30.48 32.385 0)
+    (property "Reference" "R29" (at 30.48 32.385 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0r" (at 30.48 34.925 0)
@@ -1156,7 +1156,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1249,7 +1249,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R25") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1287,7 +1287,7 @@
   (symbol (lib_id "Device:R_Small") (at 68.58 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f24324e-ba0e-404a-a22e-7c467e781a0f)
-    (property "Reference" "R23" (at 69.85 27.94 0)
+    (property "Reference" "R24" (at 69.85 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 69.85 30.48 0)
@@ -1307,7 +1307,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R23") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
