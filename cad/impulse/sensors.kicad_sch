@@ -448,60 +448,7 @@
         )
       )
     )
-    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VBUS" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VBUS_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VBUS_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
-
 
   (junction (at 101.6 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 10582626-0291-484a-a94f-7440e653cf6a)
@@ -616,6 +563,10 @@
   (wire (pts (xy 68.58 26.67) (xy 74.93 26.67))
     (stroke (width 0) (type default))
     (uuid 7f9dfeb3-1768-4713-9998-c3b87d2d90f1)
+  )
+  (wire (pts (xy 101.6 20.32) (xy 101.6 24.13))
+    (stroke (width 0) (type default))
+    (uuid 7fa82033-1b79-4dba-8882-cf52cb39b984)
   )
   (wire (pts (xy 27.94 50.8) (xy 60.96 50.8))
     (stroke (width 0) (type default))
@@ -789,6 +740,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "vsense" (shape input) (at 101.6 20.32 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d7b8ef1f-a9ca-4e4c-9caf-49ec80763ec5)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.8558 20.32 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
 
   (symbol (lib_id "power:+3V3") (at 15.24 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
@@ -848,7 +806,7 @@
   (symbol (lib_id "Device:R_Small") (at 74.93 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fd6fd6b-9df9-436b-a009-4edd54dc1529)
-    (property "Reference" "R25" (at 76.2 27.94 0)
+    (property "Reference" "R26" (at 76.2 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 76.2 30.48 0)
@@ -868,7 +826,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R25") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -877,7 +835,7 @@
   (symbol (lib_id "Device:R_Small") (at 25.4 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 217d7fae-39f2-4dbc-b940-65c33d4e6e82)
-    (property "Reference" "R30" (at 25.4 83.82 90)
+    (property "Reference" "R31" (at 25.4 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0r" (at 25.4 81.28 90)
@@ -897,7 +855,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R30") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -906,7 +864,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 26.67 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29e4c469-f866-48d4-b507-638fdd421dc9)
-    (property "Reference" "R22" (at 99.06 26.035 0)
+    (property "Reference" "R23" (at 99.06 26.035 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13k3" (at 99.06 28.575 0)
@@ -926,7 +884,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -935,7 +893,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 31.75 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42ae00a4-74cc-4dc2-8161-1bc7fa6a40a7)
-    (property "Reference" "R28" (at 99.06 31.115 0)
+    (property "Reference" "R29" (at 99.06 31.115 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2k" (at 99.06 33.655 0)
@@ -955,7 +913,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -989,7 +947,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R23") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1023,7 +981,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R27") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1136,7 +1094,7 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 33.02 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d382a96-fbb3-4ff6-bf73-15f9c71deb76)
-    (property "Reference" "R29" (at 30.48 32.385 0)
+    (property "Reference" "R30" (at 30.48 32.385 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0r" (at 30.48 34.925 0)
@@ -1156,7 +1114,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R29") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -1249,7 +1207,7 @@
       )
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R26") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1287,7 +1245,7 @@
   (symbol (lib_id "Device:R_Small") (at 68.58 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f24324e-ba0e-404a-a22e-7c467e781a0f)
-    (property "Reference" "R24" (at 69.85 27.94 0)
+    (property "Reference" "R25" (at 69.85 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 69.85 30.48 0)
@@ -1307,7 +1265,7 @@
     (instances
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "R24") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1440,31 +1398,6 @@
       (project "impulse"
         (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
           (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VBUS") (at 101.6 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 91fbd8b5-5433-4f5b-b630-e52cd7e02e87)
-    (property "Reference" "#PWR058" (at 101.6 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 101.6 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 101.6 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 101.6 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5919150a-f87e-42f3-9a60-645eb16e4481))
-    (instances
-      (project "impulse"
-        (path "/eb4cfece-5fcb-437a-ac58-337ab6512039/3cb4dd3b-38f5-4fc2-a791-3f5e2e74c848"
-          (reference "#PWR058") (unit 1)
         )
       )
     )
