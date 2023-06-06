@@ -1917,6 +1917,9 @@
     (property "Datasheet" "~" (at 231.14 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C2906947" (at 231.14 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b79ea0c7-3c25-49aa-b359-718deaded10d))
     (pin "2" (uuid a099342e-f273-45e8-bfa3-0f8a08beb095))
     (instances

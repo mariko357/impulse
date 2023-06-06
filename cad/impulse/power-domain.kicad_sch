@@ -1987,6 +1987,9 @@
     (property "Datasheet" "~" (at 200.66 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "lcsc" "C21376" (at 200.66 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 60a4d4ce-c463-4115-afb7-7a149f6e7f1f))
     (pin "2" (uuid e2091784-9586-4621-9733-e1ad66e8d60c))
     (instances
